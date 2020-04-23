@@ -7,6 +7,10 @@ for(var i=0;i<array.length;i++){
   handleClick(this.innerHTML);
   animation(this.innerHTML);
 });
+array[i].addEventListener("touchstart", function (){
+handleClick(this.innerHTML);
+animation(this.innerHTML);
+});
 }
 function handleClick(key){
   switch(key){
